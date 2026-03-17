@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<<<<<<< HEAD
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="
          http://www.springframework.org/schema/beans
@@ -9,5 +10,26 @@
          http://www.springframework.org/schema/context/spring-context.xsd">
 
   <context:component-scan base-package="com.fsad"/>
+=======
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="studentConstructor" class="com.fsad.Student">
+    <constructor-arg value="101" type="int"/>
+    <constructor-arg value="Ravi Kumar"/>
+    <constructor-arg value="B.Tech CSE"/>
+    <constructor-arg value="2nd Year"/>
+  </bean>
+
+  <bean id="studentSetter" class="com.fsad.Student">
+    <constructor-arg value="102" type="int"/>
+    <constructor-arg value="Priya Sharma"/>
+    <constructor-arg value="placeholder"/>
+    <constructor-arg value="placeholder"/>
+    <property name="course" value="MCA"/>
+    <property name="year" value="1st Year"/>
+  </bean>
+>>>>>>> d8d2a10656d94910d63362c490ab366158dcefdf
 
 </beans>

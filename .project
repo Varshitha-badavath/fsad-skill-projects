@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>SpringAutowiring-Skill5</name>
+=======
+	<name>SpringDI-Skill4</name>
+>>>>>>> d8d2a10656d94910d63362c490ab366158dcefdf
 	<comment></comment>
 	<projects>
 	</projects>

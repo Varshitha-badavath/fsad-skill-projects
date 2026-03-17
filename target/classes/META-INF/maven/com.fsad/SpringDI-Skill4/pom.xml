@@ -5,11 +5,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fsad</groupId>
-<<<<<<< HEAD
-  <artifactId>SpringAutowiring-Skill5</artifactId>
-=======
   <artifactId>SpringDI-Skill4</artifactId>
->>>>>>> d8d2a10656d94910d63362c490ab366158dcefdf
   <version>0.0.1-SNAPSHOT</version>
 
   <dependencies>
